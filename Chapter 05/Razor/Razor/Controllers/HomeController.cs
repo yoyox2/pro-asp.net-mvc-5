@@ -22,7 +22,7 @@ namespace Razor.Controllers {
 
         public ActionResult DemoExpression() {
 
-            ViewBag.ProductCount = 1;
+            ViewBag.ProductCount = 0;
             ViewBag.ExpressShip = true;
             ViewBag.ApplyDiscount = false;
             ViewBag.Supplier = null;
